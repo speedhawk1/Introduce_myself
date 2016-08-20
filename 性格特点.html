@@ -3,10 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>性格特点</title>
+    <style>
+        @import url(titlestyle.css)
+    </style>
 </head>
 <body>
-<pre>内心阴暗，精神错乱，头脑不清，思维涣散。
-</pre>
-
+<ul>
+    <li><h1>我的血型</h1>
+        <select name="blood_type">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="O">O</option>
+            <option value="AB">AB</option>
+        </select>
+    </li>
+    <li><dl><h1>性格特点</h1></dl>
+        <form action="" method="post"></form>
+        <input type="hidden" name="key" value="value">
+        <dt></dt>
+        <dt>我认为我喜欢的活动更富有</dt>
+        <dd><input type="radio" name="games">竞技性
+            <input type="radio" name="games">休闲趣味性
+        </dd>
+        <br>
+        <dt>闲来无事时，我认为我更倾向于</dt>
+        <dd><input type="radio" name="friendship">和大家一起嗨
+            <input type="radio" name="friendship">自己呆着
+        </dd>
+        <br>
+        <dt>假如参加一次聚会，我认为我</dt>
+        <dd><input type="radio" name="character">很容易和所有人打成一片
+            <input type="radio" name="character">只是偶尔与几个人进行交谈
+        </dd>
+        <br>
+        <dt>我认为我更倾向于</dt>
+        <dd><input type="radio" name="thinking">逻辑清晰地思考
+            <input type="radio" name="thinking">跳跃式的灵感
+        </dd>
+        <br>
+        <dt>而在同事和朋友的眼里，我是一个</dt>
+        <dd><input type="radio" name="character2">思维严谨且不苟言笑的人
+            <input type="radio" name="character2">情感丰富且极富同情心的人
+        </dd>
+        <br>
+        <dt>要和朋友们一起去旅游，我会</dt>
+        <dd><input type="radio" name="habit">提前做好周密的计划
+            <input type="radio" name="habit">说走咱就走
+        </dd>
+        <br>
+        <dt>我认为我更喜爱的学科是</dt>
+        <dd><input type="radio" name="subject">自然科学
+            <input type="radio" name="subject">人文科学
+        </dd>
+        <br>
+        <dt>我认为我更偏向于</dt>
+        <dd><input type="radio" name="character3">外向型
+            <input type="radio" name="character3">内向型
+        </dd>
+    </li>
+    <br>
+    <li><h1>我的爱好</h1>
+        <input type="checkbox" name="hobbies">体育运动
+        <input type="checkbox" name="hobbies">阅读
+        <input type="checkbox" name="hobbies">美食
+        <input type="checkbox" name="hobbies">时尚
+        <br>
+        <input type="checkbox" name="hobbies">音乐与电影
+        <input type="checkbox" name="hobbies">旅游
+        <input type="checkbox" name="hobbies">游戏与电子竞技
+        <input type="checkbox" name="hobbies">技术宅
+    </li>
+    <li><h1>自我评价</h1>
+        <textarea name="" cols="50" rows="10" placeholder="不要超过80字"></textarea>
+    </li>
+    <br>
+</ul>
+<input type="submit" value="提交">
 </body>
 </html>
+
