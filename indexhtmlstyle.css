@@ -33,6 +33,11 @@ span>a:link {
 span>a:hover {
     font-size:2.4em;
 }
+span>a:active {
+    color:black;
+    background-color: honeydew;
+    border-radius: 3px;
+}
 span>a:visited {
     color:deepskyblue;
 }
